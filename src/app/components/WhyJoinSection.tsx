@@ -26,8 +26,7 @@ export default function WhyJoinSection() {
 
   return (
     <section className="relative py-20 px-4">
-      {/* Top right decoration */}
-      <div className="absolute top-0 right-0 w-32 h-32">
+       <div className="absolute top-0 right-0 w-32 h-32">
         <Image
           src="/top-right.png"
           alt="Decoration"
@@ -38,8 +37,7 @@ export default function WhyJoinSection() {
 
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left side - Image */}
-          <motion.div
+           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -55,8 +53,7 @@ export default function WhyJoinSection() {
             />
           </motion.div>
 
-          {/* Right side - Content */}
-          <div className="space-y-8">
+           <div className="space-y-8">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

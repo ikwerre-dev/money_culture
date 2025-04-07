@@ -64,7 +64,6 @@ export default function ProjectsSection() {
 
   return (
     <section className="relative py-20 px-4">
-      {/* Top left decoration */}
       <div className="absolute top-0 left-0 w-25 h-25">
         <Image
           src="/top-left.png"
@@ -74,7 +73,6 @@ export default function ProjectsSection() {
         />
       </div>
 
-      {/* Bottom right decoration */}
       <div className="absolute bottom-0 right-0 w-25 h-25">
         <Image
           src="/bottom-right.png"

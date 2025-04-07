@@ -4,7 +4,6 @@ import Button from './Button';
 export default function AboutSection() {
     return (
         <section className="py-16 px-4 relative">
-            {/* Top right decoration */}
             <div className="absolute top-0 right-0 w-25 h-25 z-0">
                 <Image
                     src="/top-right.png"
@@ -16,7 +15,6 @@ export default function AboutSection() {
 
             <div className="max-w-7xl mx-auto relative z-10">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
-                    {/* Left side - Image */}
                     <div className="relative">
                         <div className="relative aspect-square w-full">
                             <Image
@@ -28,7 +26,6 @@ export default function AboutSection() {
                         </div>
                     </div>
 
-                    {/* Right side - Content */}
                     <div className="space-y-6">
                         <h3 className="text-[#000] font-medium">Who we are</h3>
                         <h2 className="text-3xl md:text-4xl font-bold text-[#0B4870] leading-tight">

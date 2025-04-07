@@ -20,8 +20,7 @@ export default function Footer() {
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 pt-20">
                 <div className="grid md:grid-cols-12 gap-8 mb-16">
-                    {/* Logo and Description */}
-                    <div className="md:col-span-4">
+                     <div className="md:col-span-4">
                         <Image
                             src="/footer-logo.png"
                             alt="Money Culture Logo"
@@ -48,8 +47,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Get in Touch */}
-                    <div className="md:col-span-3">
+                     <div className="md:col-span-3">
                         <h3 className="text-white font-bold mb-6">GET IN TOUCH</h3>
                         <div className="space-y-3 text-white/90 text-sm">
                             <p>30N River Rd, Desplaines, IL 60016</p>
@@ -59,8 +57,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* What We Offer */}
-                    <div className="md:col-span-3">
+                     <div className="md:col-span-3">
                         <h3 className="text-white font-bold mb-6">WHAT WE OFFER</h3>
                         <div className="space-y-3 text-white/90 text-sm">
                             <Link href="#" className="block hover:text-white">&gt; Financial Literacy</Link>
@@ -71,8 +68,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Quick Links */}
-                    <div className="md:col-span-2">
+                     <div className="md:col-span-2">
                         <h3 className="text-white font-bold mb-6">QUICK LINKS</h3>
                         <div className="space-y-3 text-white/90 text-sm">
                             <Link href="#" className="block hover:text-white">&gt; Home</Link>

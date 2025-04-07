@@ -10,8 +10,7 @@ export default function TestimonialsSection() {
 
   return (
     <section className="relative py-20 px-4">
-      {/* Top left decoration */}
-      <div className="absolute top-0 left-0 w-32 h-32">
+       <div className="absolute top-0 left-0 w-32 h-32">
         <Image
           src="/top-left.png"
           alt="Decoration"
@@ -38,8 +37,7 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl"
         >
-          {/* Video Container */}
-          <div className="relative aspect-video">
+           <div className="relative aspect-video">
             <Image
               src="/testimonial-video-thumb.png"
               alt="Testimonial Video"
@@ -47,10 +45,8 @@ export default function TestimonialsSection() {
               className="object-cover"
             />
             
-            {/* Video Controls */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4">
-              {/* Progress Bar */}
-              <div className="relative h-1 bg-white/30 rounded-full mb-4">
+             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4">
+               <div className="relative h-1 bg-white/30 rounded-full mb-4">
                 <div className="absolute left-0 top-0 h-full w-[40%] bg-white rounded-full"></div>
                 <div className="absolute left-[40%] top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full"></div>
               </div>
