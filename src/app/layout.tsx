@@ -5,29 +5,29 @@ import { Montserrat } from 'next/font/google';
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Mayen Global Foundation",
-  description: "Empowering communities through sustainable change across Africa. Join us in our mission to create lasting impact through healthcare, education, and environmental initiatives.",
+  title: "Money Culture Community",
+  description: "A digital hub empowering individuals and businesses through financial literacy, skill development, and entrepreneurial growth. Join our community to unlock your potential and achieve financial independence.",
   keywords: [
-    "African NGO",
-    "Community Development",
-    "Healthcare Access",
-    "Education Empowerment",
-    "Waste Management",
     "Financial Literacy",
-    "Sustainable Development",
-    "African Communities",
-    "Social Impact",
-    "Volunteer Africa"
+    "Skill Development",
+    "Entrepreneurship",
+    "Business Growth",
+    "Money Management",
+    "Career Development",
+    "Digital Skills",
+    "Financial Independence",
+    "Community Building",
+    "Business Education"
   ],
-  authors: [{ name: "Mayen Global Foundation" }],
-  creator: "Mayen Global Foundation",
-  publisher: "Mayen Global Foundation",
+  authors: [{ name: "Money Culture Community" }],
+  creator: "Money Culture Community",
+  publisher: "Money Culture Community",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  themeColor: "#061640",
+  themeColor: "#095D7E",
   colorScheme: "light",
   viewport: {
     width: "device-width",
@@ -41,23 +41,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mayenglobalfoundation.org",
-    siteName: "Mayen Global Foundation",
-    title: "Mayen Global Foundation",
-    description: "Empowering communities through sustainable change across Africa",
+    url: "https://moneyculturecommunity.com",
+    siteName: "Money Culture Community",
+    title: "Money Culture Community",
+    description: "Empowering individuals through financial literacy and entrepreneurial growth",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Mayen Global Foundation",
+        alt: "Money Culture Community",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mayen Global Foundation",
-    description: "Empowering communities through sustainable change across Africa",
+    title: "Money Culture Community",
+    description: "Empowering individuals through financial literacy and entrepreneurial growth",
     images: ["/og.png"],
   },
 };
